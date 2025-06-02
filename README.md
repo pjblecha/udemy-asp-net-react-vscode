@@ -15,6 +15,7 @@ cd <<Project Name>>
 dotnet add package Microsoft.EntityFrameworkCore.InMemory
 dotnet add package Microsoft.EntityFrameworkCore.Sqlite
 dotnet add package Microsoft.EntityFrameworkCore.Tools
+dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet add <<Project Name>>.csproj package Swashbuckle.AspNetCore
 dotnet dev-certs https --trust
 ```
@@ -45,4 +46,17 @@ app.UseSwaggerUI(swaggerUIOpts =>
 ### Finally, to run:
 ```
 dotnet run --launch-profile https
+```
+
+
+## Adding Migration
+
+```
+dotnet ef migrations add FirstMigration -o "Data/Migrations"
+```
+
+## Add migration to DB
+
+```
+dotnet ef database update
 ```
