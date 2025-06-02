@@ -151,3 +151,4 @@ D:\Udemy\aspnet-core-react-minimal\udemy-asp-net-core-react-small-crud-app\aspne
 D:\Udemy\aspnet-core-react-minimal\udemy-asp-net-core-react-small-crud-app\aspnetserver\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
 D:\Udemy\aspnet-core-react-minimal\udemy-asp-net-core-react-small-crud-app\aspnetserver\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
 D:\Udemy\aspnet-core-react-minimal\udemy-asp-net-core-react-small-crud-app\aspnetserver\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Udemy\aspnet-core-react-minimal\udemy-asp-net-core-react-small-crud-app\aspnetserver\obj\Debug\net9.0\aspnetserver.sourcelink.json
