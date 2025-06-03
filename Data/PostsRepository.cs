@@ -14,7 +14,7 @@ namespace aspnetserver.Data
 
         internal async static Task<Post> GetPostByIdAsync(int postID)
         {
-            using (var db = new AppDBContext)
+            using (var db = new AppDBContext())
             {
                 return await db.Posts.FirstOrDefaultAsync(post => post.PostID == postID);
             }
@@ -27,7 +27,7 @@ namespace aspnetserver.Data
                 try
                 {
                     await db.Posts.AddAsync(toCreate);
-                    return true;
+                    return await db.SaveChangesAsync() >= 1;
                 }
                 catch (System.Exception)
                 {
